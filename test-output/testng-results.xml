@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="257643" started-at="2021-12-28T15:44:04 IST" finished-at="2021-12-28T15:48:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="257643" started-at="2021-12-28T15:44:04 IST" finished-at="2021-12-28T15:48:21 IST">
+      <class name="com.ecore.qa.testcases.FeedsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="4754" started-at="2021-12-28T15:44:04 IST" finished-at="2021-12-28T15:44:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsNameAfterFiltersWithSearchTypeAsContains()[pri:1, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsNameAfterFiltersWithSearchTypeAsContains" duration-ms="20184" started-at="2021-12-28T15:44:08 IST" description="Validate the result after selecting the Feed Name in Search In dropdown and Contains in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button." finished-at="2021-12-28T15:44:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsNameAfterFiltersWithSearchTypeAsContains -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="706" started-at="2021-12-28T15:44:29 IST" finished-at="2021-12-28T15:44:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3248" started-at="2021-12-28T15:44:29 IST" finished-at="2021-12-28T15:44:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsNameAfterFiltersWithSearchTypeAsBeginsWith()[pri:2, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsNameAfterFiltersWithSearchTypeAsBeginsWith" duration-ms="23054" started-at="2021-12-28T15:44:33 IST" description="Validate the result after selecting the Feed Name in Search In dropdown and Begins With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button." finished-at="2021-12-28T15:44:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsNameAfterFiltersWithSearchTypeAsBeginsWith -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-12-28T15:44:56 IST" finished-at="2021-12-28T15:44:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3353" started-at="2021-12-28T15:44:56 IST" finished-at="2021-12-28T15:45:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsNameAfterFiltersWithSearchTypeAsEndsWith()[pri:3, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsNameAfterFiltersWithSearchTypeAsEndsWith" duration-ms="18602" started-at="2021-12-28T15:45:00 IST" description="Validate the result after selecting the Feed Name in Search In dropdown and Ends With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button." finished-at="2021-12-28T15:45:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsNameAfterFiltersWithSearchTypeAsEndsWith -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="1555" started-at="2021-12-28T15:45:18 IST" finished-at="2021-12-28T15:45:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3434" started-at="2021-12-28T15:45:20 IST" finished-at="2021-12-28T15:45:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsNameAfterFiltersWithSearchTypeAsExactMatch()[pri:4, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsNameAfterFiltersWithSearchTypeAsExactMatch" duration-ms="22491" started-at="2021-12-28T15:45:23 IST" description="Validate the result after selecting the Feed Name in Search In dropdown and Exact Match in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button." finished-at="2021-12-28T15:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsNameAfterFiltersWithSearchTypeAsExactMatch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="712" started-at="2021-12-28T15:45:46 IST" finished-at="2021-12-28T15:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="4180" started-at="2021-12-28T15:45:46 IST" finished-at="2021-12-28T15:45:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedAfterFiltersWithSelectUsersAsClubOwner()[pri:5, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedAfterFiltersWithSelectUsersAsClubOwner" duration-ms="23585" started-at="2021-12-28T15:45:51 IST" description="Validate the result after selecting the User Type in Search In dropdown and ClubOwner in Select User dropdown and click on filter button." finished-at="2021-12-28T15:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedAfterFiltersWithSelectUsersAsClubOwner -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="678" started-at="2021-12-28T15:46:14 IST" finished-at="2021-12-28T15:46:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3762" started-at="2021-12-28T15:46:15 IST" finished-at="2021-12-28T15:46:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedAfterFiltersWithSelectUsersAsAdmin()[pri:6, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedAfterFiltersWithSelectUsersAsAdmin" duration-ms="24279" started-at="2021-12-28T15:46:19 IST" description="Validate the result after selecting the User Type in Search In dropdown and Admin in Select User dropdown and click on filter button." finished-at="2021-12-28T15:46:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedAfterFiltersWithSelectUsersAsAdmin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="692" started-at="2021-12-28T15:46:43 IST" finished-at="2021-12-28T15:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3898" started-at="2021-12-28T15:46:44 IST" finished-at="2021-12-28T15:46:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsAfterFilterWithPublishedOn()[pri:7, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsAfterFilterWithPublishedOn" duration-ms="27390" started-at="2021-12-28T15:46:47 IST" description="Validate the result after selecting the Published On in Search In dropdown and select the date in Date Range Dropdown and click on filter button." finished-at="2021-12-28T15:47:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsAfterFilterWithPublishedOn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="685" started-at="2021-12-28T15:47:15 IST" finished-at="2021-12-28T15:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3602" started-at="2021-12-28T15:47:16 IST" finished-at="2021-12-28T15:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFeedsNameAfterSearchingWithFeedName()[pri:8, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateFeedsNameAfterSearchingWithFeedName" duration-ms="15830" started-at="2021-12-28T15:47:19 IST" description="Validate the result after searching with the feed name in search field." finished-at="2021-12-28T15:47:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedsNameAfterSearchingWithFeedName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="688" started-at="2021-12-28T15:47:35 IST" finished-at="2021-12-28T15:47:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3727" started-at="2021-12-28T15:47:36 IST" finished-at="2021-12-28T15:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePostedByAfterSearchWithPostedBy()[pri:9, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validatePostedByAfterSearchWithPostedBy" duration-ms="18948" started-at="2021-12-28T15:47:39 IST" description="Validate the result after searching with the feed name in search field." finished-at="2021-12-28T15:47:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostedByAfterSearchWithPostedBy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-12-28T15:47:58 IST" finished-at="2021-12-28T15:47:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="3551" started-at="2021-12-28T15:47:59 IST" finished-at="2021-12-28T15:48:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserTypeAfterSearchWithUserType()[pri:10, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="validateUserTypeAfterSearchWithUserType" duration-ms="17954" started-at="2021-12-28T15:48:03 IST" description="Validate the result after searching with the feed name in search field." finished-at="2021-12-28T15:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserTypeAfterSearchWithUserType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecore.qa.testcases.FeedsPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="701" started-at="2021-12-28T15:48:21 IST" finished-at="2021-12-28T15:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecore.qa.testcases.FeedsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

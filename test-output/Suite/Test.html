@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 27 19:27:42 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>737 seconds (737362 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateHundredEntriesShownAfterSelectingHundred()'><b>validateHundredEntriesShownAfterSelectingHundred</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate 100 entries is shown after selecting the 100 Entries In Show Entries Dropdown.</td>
+<td></td>
+<td>7</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateSearchWithReferral()'><b>validateSearchWithReferral</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the Referral Code of user after search with Referral Code. </td>
+<td></td>
+<td>9</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedAfterFiltersWithSelectUsersAsClubOwner()'><b>validateFeedAfterFiltersWithSelectUsersAsClubOwner</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and ClubOwner in Select User dropdown and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUserNameAfterFiltersWithSearchTypeAsContains()'><b>validateUserNameAfterFiltersWithSearchTypeAsContains</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Name in Search In dropdown and Contains in Search Type dropdown and enter valid registered name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>16</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.ecore.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecore.qa.testcases.LoginPageTest@27a8c74e</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.EventPageTest.validateEventsNameAfterFiltersWithSearchTypeAsBeginsWith()'><b>validateEventsNameAfterFiltersWithSearchTypeAsBeginsWith</b><br>Test class: com.ecore.qa.testcases.EventPageTest<br>Test method: Validate the result after selecting the Event Name in Search In dropdown and Begins With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.EventPageTest@2353b3e6</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedsNameAfterFiltersWithSearchTypeAsContains()'><b>validateFeedsNameAfterFiltersWithSearchTypeAsContains</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the Feed Name in Search In dropdown and Contains in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.LoginPageTest.loginWithValidEmailAndPassword()'><b>loginWithValidEmailAndPassword</b><br>Test class: com.ecore.qa.testcases.LoginPageTest<br>Test method: After enter valid email and password click on Login button and user get redirect to Admin dashboard </td>
+<td></td>
+<td>8</td>
+<td>com.ecore.qa.testcases.LoginPageTest@27a8c74e</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validatePhoneNumberAfterFiltersWithSearchTypeAsBeginsWith()'><b>validatePhoneNumberAfterFiltersWithSearchTypeAsBeginsWith</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Phone Number in Search In dropdown and Begins With in Search Type dropdown and enter valid phone number in Enter Text field and click on filter button.</td>
+<td></td>
+<td>14</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUsersAfterFiltersWithSelectUsersAsVisitor()'><b>validateUsersAfterFiltersWithSelectUsersAsVisitor</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Visitor in Select Users dropdown and click on filter button.</td>
+<td></td>
+<td>14</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedsNameAfterFiltersWithSearchTypeAsEndsWith()'><b>validateFeedsNameAfterFiltersWithSearchTypeAsEndsWith</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the Feed Name in Search In dropdown and Ends With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedsNameAfterFiltersWithSearchTypeAsBeginsWith()'><b>validateFeedsNameAfterFiltersWithSearchTypeAsBeginsWith</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the Feed Name in Search In dropdown and Begins With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedAfterFiltersWithSelectUsersAsAdmin()'><b>validateFeedAfterFiltersWithSelectUsersAsAdmin</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Admin in Select User dropdown and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateIsBlockedUsersAfterFilterWithSelectNo()'><b>validateIsBlockedUsersAfterFilterWithSelectNo</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Is Blocked in Search In dropdown and No in Select Admin dropdown and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateTwentyFiveEntriesShownAfterSelectingTwentyFive()'><b>validateTwentyFiveEntriesShownAfterSelectingTwentyFive</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate 25 entries is shown after selecting the 25 Entries In Show Entries Dropdown.</td>
+<td></td>
+<td>7</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateViewUserProfileDetails()'><b>validateViewUserProfileDetails</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the user after view the User Profile</td>
+<td></td>
+<td>17</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.EventPageTest.validateEventsNameAfterFiltersWithSearchTypeAsExactMatch()'><b>validateEventsNameAfterFiltersWithSearchTypeAsExactMatch</b><br>Test class: com.ecore.qa.testcases.EventPageTest<br>Test method: Validate the result after selecting the Event Name in Search In dropdown and Exact Match in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.EventPageTest@2353b3e6</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUsersAfterFiltersWithSelectUsersAsGuide()'><b>validateUsersAfterFiltersWithSelectUsersAsGuide</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Guide in Select Users dropdown and click on filter button.</td>
+<td></td>
+<td>16</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateTenEntriesShownAfterSelectingTen()'><b>validateTenEntriesShownAfterSelectingTen</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate ten entries is shown after selecting the 10 Entries In Show Entries Dropdown.</td>
+<td></td>
+<td>7</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.EventPageTest.validateEventsNameAfterFiltersWithSearchTypeAsContains()'><b>validateEventsNameAfterFiltersWithSearchTypeAsContains</b><br>Test class: com.ecore.qa.testcases.EventPageTest<br>Test method: Validate the result after selecting the Event Name in Search In dropdown and Contains in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.EventPageTest@2353b3e6</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUserNameAfterFiltersWithSearchTypeAsEndsWith()'><b>validateUserNameAfterFiltersWithSearchTypeAsEndsWith</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Name in Search In dropdown and Begins With in Search Type dropdown and enter valid registered name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateSearchWithDOB()'><b>validateSearchWithDOB</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the DOB of user after search with DOB.</td>
+<td></td>
+<td>9</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUnBlockedUser()'><b>validateUnBlockedUser</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: After Unblocking the blocked User validate that user is blocked or not.</td>
+<td></td>
+<td>17</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateSearchWithPhoneNumer()'><b>validateSearchWithPhoneNumer</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the Phone Number of user after search with Phone Number. </td>
+<td></td>
+<td>10</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedsNameAfterFiltersWithSearchTypeAsExactMatch()'><b>validateFeedsNameAfterFiltersWithSearchTypeAsExactMatch</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the Feed Name in Search In dropdown and Exact Match in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateIsBlockedUsersAfterFilterWithSelectYes()'><b>validateIsBlockedUsersAfterFilterWithSelectYes</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Is Blocked in Search In dropdown and Yes in Select Admin dropdown and click on filter button.</td>
+<td></td>
+<td>19</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUsersAfterFiltersWithSelectUsersAsCustomer()'><b>validateUsersAfterFiltersWithSelectUsersAsCustomer</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Customer in Select Users dropdown and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.LoginPageTest.loginWithInvalidEmailOrPassword()'><b>loginWithInvalidEmailOrPassword</b><br>Test class: com.ecore.qa.testcases.LoginPageTest<br>Test method: After enter valid email and password click on Login button and user get redirect to Admin dashboard </td>
+<td></td>
+<td>0</td>
+<td>com.ecore.qa.testcases.LoginPageTest@27a8c74e</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateBlockedUser()'><b>validateBlockedUser</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: After blocking the user validate that user is blocked or not.</td>
+<td></td>
+<td>17</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUserNameAfterFiltersWithSearchTypeAsExactMatch()'><b>validateUserNameAfterFiltersWithSearchTypeAsExactMatch</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Name in Search In dropdown and Begins With in Search Type dropdown and enter valid registered name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>14</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.EventPageTest.validateEventsNameAfterFiltersWithSearchTypeAsEndsWith()'><b>validateEventsNameAfterFiltersWithSearchTypeAsEndsWith</b><br>Test class: com.ecore.qa.testcases.EventPageTest<br>Test method: Validate the result after selecting the Event Name in Search In dropdown and Ends With in Search Type dropdown and enter valid feeds name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.EventPageTest@2353b3e6</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validatePhoneNumberAfterFiltersWithSearchTypeAsExatchMatch()'><b>validatePhoneNumberAfterFiltersWithSearchTypeAsExatchMatch</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Phone Number in Search In dropdown and Exact Match in Search Type dropdown and enter valid phone number in Enter Text field and click on filter button.</td>
+<td></td>
+<td>17</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUsersAfterFiltersWithSelectUsersAsAdmin()'><b>validateUsersAfterFiltersWithSelectUsersAsAdmin</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Admin in Select Users dropdown and click on filter button.</td>
+<td></td>
+<td>14</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateSearchWithName()'><b>validateSearchWithName</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the Full Name of user after search with Name. </td>
+<td></td>
+<td>9</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateSearchWithJoiningReferral()'><b>validateSearchWithJoiningReferral</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the Joining Referral Code of user after search with Joining Referral Code. </td>
+<td></td>
+<td>9</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.FeedsPageTest.validateFeedsAfterFilterWithPublishedOn()'><b>validateFeedsAfterFilterWithPublishedOn</b><br>Test class: com.ecore.qa.testcases.FeedsPageTest<br>Test method: Validate the result after selecting the Published On in Search In dropdown and select the date in Date Range Dropdown and click on filter button.</td>
+<td></td>
+<td>17</td>
+<td>com.ecore.qa.testcases.FeedsPageTest@1a8a8f7c</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validatePhoneNumberAfterFiltersWithSearchTypeAsEndsWith()'><b>validatePhoneNumberAfterFiltersWithSearchTypeAsEndsWith</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Phone Number in Search In dropdown and Ends With in Search Type dropdown and enter valid phone number in Enter Text field and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateDateOfUsersAfterFilterWithDateRange()'><b>validateDateOfUsersAfterFilterWithDateRange</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Registered On in Search In dropdown and select the date in Date Range Dropdown and click on filter button.</td>
+<td></td>
+<td>23</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUsersAfterFiltersWithSelectUsersAsAmbassador()'><b>validateUsersAfterFiltersWithSelectUsersAsAmbassador</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the User Type in Search In dropdown and Ambassador in Select Users dropdown and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateFiftyEntriesShownAfterSelectingFifty()'><b>validateFiftyEntriesShownAfterSelectingFifty</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate 50 entries is shown after selecting the 50 Entries In Show Entries Dropdown.</td>
+<td></td>
+<td>7</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validatePhoneNumberAfterFiltersWithSearchTypeAsContains()'><b>validatePhoneNumberAfterFiltersWithSearchTypeAsContains</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Phone Number in Search In dropdown and Contains in Search Type dropdown and enter valid phone number in Enter Text field and click on filter button.</td>
+<td></td>
+<td>15</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+<tr>
+<td title='com.ecore.qa.testcases.UserPageTest.validateUserNameAfterFiltersWithSearchTypeAsBeginsWith()'><b>validateUserNameAfterFiltersWithSearchTypeAsBeginsWith</b><br>Test class: com.ecore.qa.testcases.UserPageTest<br>Test method: Validate the result after selecting the Name in Search In dropdown and Begins With in Search Type dropdown and enter valid registered name in Enter Text field and click on filter button.</td>
+<td></td>
+<td>13</td>
+<td>com.ecore.qa.testcases.UserPageTest@51e2adc7</td></tr>
+</table><p>
+</body>
+</html>
